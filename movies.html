@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="movies.css">
+    </head>
+    <body>
+        <!-- This is the side bar -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="final.html">Home</a>
+            <a href="#">Tech</a>
+            <a href="#">Books</a>
+            <a href="movies.html">Movies/ TV shows</a>
+            <a href="#">Makeup</a>
+        </div>
+          
+        <div id="main">
+            <!-- <h2>Sidenav Push Example</h2>
+            <p>Click on the element below to open the side navigation menu, and push this content to the right.</p> -->
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigation</span>
+        </div>
+          
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+          
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+        </script>
+
+        <!-- This is where the actual website for movies begin -->
+        <h1 id="header1">2018 Movies and TV Shows</h1>
+        
+        <div id="containerA">
+        <h2 id="header2.1">English</h2>
+        <center><iframe width="944" height="531" src="https://www.youtube.com/embed/tN8o_E_f9FQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+        <h3>The Darkest Minds</h3>
+        <p>After a disease killed 98% of children and young people in the United States, the 2% who managed to survive have developed superpowers, but have been locked in internment camps after being declared a threat. One of those 16-year-old girls, Ruby, manages to escape from her camp and joins a group of teenagers fleeing government forces.</p>
+        </div>
+
+        <!-- <div id="containerB">
+        <h2 id="header2.2">Overseas</h2>
+        <p>Miss Hammurabi</p>
+        </div> -->
+        <br>
+    </body>
+</html>
