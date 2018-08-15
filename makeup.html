@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <title>Eunice</title>
     <link rel="stylesheet" href="makeup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="makeup.js" type= "text/javascript"></script>
   </head>
   <body>
+    <h1>Makeup</h1>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="final.html">Home</a>
         <a href="#">Tech</a>
         <a href="#">Books</a>
         <a href="#">Movies/ TV shows</a>
-        <a href="#">Makeup</a>
+        <a href="makeup.html">Makeup</a>
       </div>
       
       <div id="main">
@@ -32,5 +36,27 @@
           document.getElementById("main").style.marginLeft= "0";
       }
       </script>
-  </body>
+      <h2 id = "firstbrand">BECCA</h2>
+      <div id= "Becca">
+          <div id= "bfound">
+          <h3>Skin Love Weightless Blur Foundation</h3>
+            <img id= "blur_foundation" src= "foundation.gif">
+            <p> A weightless, medium to buildable coverage foundation with a velvety, natural finish that mimics the look of smooth, healthy skin.</p>
+          </div>
+
+      <div id="glows">
+        <h3>Skin Love Glow Glaze Stick</h3>
+          <img id="glowstick" src="glowstick.gif">
+          <p>A low-glow highlighting balm loaded with skin loving ingredients and BECCA’s Glow Nectar Brightening Complex.</p>
+      </div>
+
+      <div id="bconcealer">
+        <h3>Ultimate Coverage Longwear Concealer</h3>
+          <img id ="Bbconcealer" src="concealer.gif">
+          <p>A water-resistant, full coverage concealer that instantly camouflages under eye dark circles,
+             blemishes and discolouration while smoothing the skin’s texture.</p>
+      </div>
+      </div>
+      <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+    </body>
 </html>
