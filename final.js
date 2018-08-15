@@ -1,1 +1,0 @@
-{/* <button onclick="techSection()">Click me</button> */}
