@@ -21,14 +21,27 @@ a{
   text-decoration:none; 
 }
 /* --------------------------------- */
-#p1{
-    width: 30%;
-    height: 30%;
+
+/* #subT{
+    float: right;
+} */
+
+/* ------------------------------------- */
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12{
+    width: 50%;
+    height: 50%;
 }
-#1{
-    border: solid 3px black;
+
+#minicontainerA, #minicontainerB, #minicontainerC, #minicontainerD, #minicontainerE, #minicontainerF, #minicontainerG, #minicontainerH {
+    border: 3px solid black;
+    flex: 1;
+    text-align:center; 
+    margin: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+
 }
-#p2{
-    width: 30%;
-    height: 30%;
-}  
+
+#containerA, #containerB,#containerC, #containerD, #containerE, #containerF, #containerG, #containerH {
+    display: flex;
+}
