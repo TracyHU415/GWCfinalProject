@@ -4,33 +4,54 @@
     <meta charset="UTF-8">
     <title>Eunice</title>
     <link rel="stylesheet" href="makeup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="makeup.js" type= "text/javascript"></script>
   </head>
   <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="final.html">Home</a>
-        <a href="#">Tech</a>
-        <a href="#">Books</a>
-        <a href="#">Movies/ TV shows</a>
-        <a href="#">Makeup</a>
+    <h1>Makeup </h1>
+    <ul>
+          <li><a href="final.html">Home</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Movies/TVshows</a></li>
+          <li><a href="makeup.html">Makeup</a></li>
+    </ul>
+
+      <h2 id = "firstbrand">Wet n Wild</h2>
+      <div id= "WW">
+          <div id= "highlight">
+          <h3>MegaGlo Highlighting Powder</h3>
+            <img id= "hp" src= "highlightWW.jpg">
+            <p> The NEW Limited Edition Fire Dragon vs. Ice Dragon MegaGlo Highlighting Powder shades are formulated with 
+              ultra-reflective pearl pigments that give skin a radiant glow. Unleash your inner arctic flame.</p>
+          </div>
+
+      <div id="pigment">
+        <h3>Color Icon Loose Pigment</h3>
+          <img id="loosepig" src="pigment.png">
+          <p>Step into fall smouldering with new high definition Color Icon Loose Pigment shades. 
+            These versatile pigments can be used on the face, eyes and body for an all-over sweep of color.</p>
       </div>
-      
-      <div id="main">
-        <!-- <h2>Sidenav Push Example</h2>
-        <p>Click on the element below to open the side navigation menu, and push this content to the right.</p> -->
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigation </span>
+
+      <div id="WWfound">
+        <h3>Photo Focus Foundation</h3>
+          <img id ="WWfoundation" src="foundationWW.png">
+          <p>Your skin, only better. Our new high-performing, skin-perfecting foundation underwent major road testing under seven different 
+            photo lighting conditions to deliver flawless camera-ready makeup every time. Specially made with a matte, light-diffusing complex 
+            to give your skin #nofilter perfection..</p>
       </div>
-      
-      <script>
-      function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
-      }
-      
-      function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("main").style.marginLeft= "0";
-      }
-      </script>
-  </body>
+      </div>
+
+      <h2 id= "secondbrand"> Revlon </h2>
+      <div id= "Rev">
+        <div id= "Rfound">
+        <h3>REVLON COLORSTAYFULL COVER™ FOUNDATION</h3>
+        <img id="Rfoundation" src="rfound.jpg">
+        <p>ColorStay Full Cover™ Foundation for a full coverage matte finish. Lasts up to 24 hours. Comfortable wear that moves with your skin,
+           won’t cake you up or weight you down. Easy to apply and blends seamlessly.</p>
+      </div>
+
+      <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+    </body>
 </html>

@@ -1,48 +1,102 @@
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: rgb(99, 100, 192); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0;
+}
+ul {
+	width: 90%;
+	padding: 13px;
+	margin: -50px auto 10px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
 }
 
-/* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
+li {
+	display: inline;
+	font-size:30px;
+	margin: 0px 55px;
+	text-decoration:none;
+}
+
+a{
+  color:#007acc;
+  text-decoration:none; 
+}
+
+img{
+        width: 400px;
+        height: 400px;
+}
+#highlight{
+        border: solid 3px cyan;
+        background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
+        margin: 8px;
+        text-align: center;
+        width: 50%;
+}
+#pigment{
+    border: solid 3px cyan;
+    background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#WWfound{
+    border: solid 3px cyan;
+    background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#WW{
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+}
+#firstbrand{
+    font-size: 80px;
+    margin:0px;
+    text-align: center;
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
     text-decoration: none;
-    font-size: 25px;
-    color: #b8b8b8;
-    display: block;
-    transition: 0.3s;
 }
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #e2b3f8;
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
 }
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+#secondbrand{
+    font-size: 80px;
+    margin:0px;
+    text-align: center;
 }
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
+#Rfound{
+    border: solid 3px cyan;
+    background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
 }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+#Rfoundation{
+    width: 200px;
+    height: 400px;
 }
