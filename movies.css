@@ -48,7 +48,7 @@
 }  */ 
 
 body {
-    background: linear-gradient(skyblue, white);
+    background: linear-gradient(rgb(0, 132, 255), skyblue, white, pink);
 }
 
 h1{
@@ -72,13 +72,13 @@ li {
 }
 
 a{
-  color:#007acc;
+  color:#00ff6a;
   text-decoration:none; 
 }
 
 h2 {
     text-align: center;
-    font-size: 40;
+    font-size: 80px;
     color: purple;
     text-decoration: underline;
 }
@@ -87,8 +87,9 @@ h3 {
     margin: 5px;
     text-align: center;
     font-size: 36;
-    color: green;
+    color: rgb(201, 151, 15);
 }
+
 
 iframe {
     margin-top: 20px;
@@ -100,11 +101,11 @@ p{
     font-size: 24;
 }
 
-#containerA, #containerB {
+#containerA, #containerB, #containerC, #containerD, #containerE {
     display: flex;
 }
 
-#minicontainerA, #minicontainerB, #minicontainerC, #minicontainerD {
+#minicontainerA, #minicontainerB, #minicontainerC, #minicontainerD, #minicontainerE, #minicontainerF, #minicontainerG, #minicontainerH, #minicontainerI, #minicontainerJ {
     text-align: center;
     flex: 1;
     border: 2px solid beige;
