@@ -1,28 +1,28 @@
 h1{
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
     margin-top: 0;
 }
-ul {
-	width: 90%;
-	padding: 13px;
-	margin: -50px auto 10px auto;
-	border-top: 2px solid #000;
-	border-bottom: 1px solid #000;
-	text-align: center;
+ul{
+    width: 90%;
+    padding: 9px;
+    margin: -50px auto 10px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
 }
-
 li {
-	display: inline;
-	font-size:30px;
-	margin: 0px 55px;
-	text-decoration:none;
+    display: inline;
+    font-size:30px;
+    margin: 0px 50px;
+    text-decoration:none;
 }
 
 a{
   color:#007acc;
   text-decoration:none; 
 }
+
 
 img{
         width: 400px;
@@ -49,16 +49,16 @@ img{
     text-align: center;
     width: 50%;
 }
-#WW{
+#WW, #Rev, #CP, #Glossier, #NYX, #covergirl{
     display: flex;
     align-content: space-around;
     text-align: center;
 }
-#firstbrand{
+/* #firstbrand{
     font-size: 80px;
     margin:0px;
     text-align: center;
-}
+} */
 #back2Top {
     width: 40px;
     line-height: 40px;
@@ -84,10 +84,12 @@ img{
     background-color: #DDF;
     color: #000;
 }
-#secondbrand{
+#firstbrand, #secondbrand, #thirdbrand, #fourthbrand, #fifthbrand, #sixthbrand{
     font-size: 80px;
     margin:0px;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 #Rfound{
     border: solid 3px cyan;
@@ -98,5 +100,17 @@ img{
 }
 #Rfoundation{
     width: 200px;
+    height: 400px;
+}
+#RevLiptint, #revliner, #CPeyeshaw, #cpsetpow, #CPLIP, #boyb, #highlightstick, #gblush, #liquideyeshaw, 
+#NYXeyeliner, #slip,#litconc, #bigcurl, #lipcream{
+    border: solid 3px cyan;
+    background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#bigmas{
+    width: 300px;
     height: 400px;
 }
