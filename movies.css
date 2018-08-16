@@ -117,5 +117,6 @@ p{
     text-align: center;
     flex: 1;
     border: 2px solid beige;
+    border-radius: 50px;
 
 }
