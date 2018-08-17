@@ -74,7 +74,7 @@
 }
 
 body {
-    background: linear-gradient(rgb(0, 132, 255), skyblue, white, pink);
+    background: linear-gradient(beige, skyblue, white, pink);
 }
 
 h1{
@@ -98,7 +98,7 @@ li {
 }
 
 a{
-  color:#00ff6a;
+  color:#059bff;
   text-decoration:none; 
 }
 
