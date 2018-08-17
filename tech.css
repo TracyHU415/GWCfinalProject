@@ -1,15 +1,14 @@
-<<<<<<< HEAD
 h1{
     font-size: 70px;
     text-align: center;
-    color: white
+    color: #01375E
 }
 ul {
     width: 90%;
     padding: 13px;
     margin: -50px auto 10px auto;
-    border-top: 2px solid white;
-    border-bottom: 1px solid white;
+    border-top: 2px solid #01375E;
+    border-bottom: 1px solid #01375E;
     text-align: center;
 }
 li {
@@ -19,7 +18,7 @@ li {
     text-decoration:none;
 }
 a{
-  color:#C2E5FD;
+  color:#367DAF;
   text-decoration:none; 
 }
 
@@ -52,7 +51,7 @@ a{
 
 body, html {
     width: 100%;
-    background-image: url("univ1.jpg");
+    background-image: url("sky1.jpg");
 }
 /* ------------------------------------- */
 #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12{
@@ -88,14 +87,15 @@ iframe{
     float: left;
     margin: 12px;
 }
-h2{
+#subT{    
     text-align: center;
     /* float: left; */
     margin-top: 20px;
 }
-p{
+h4{
     text-align: justify;
     margin: 12px;
+    margin-bottom: 8px;
 }
 /* #discription{
     float: left;
@@ -104,39 +104,3 @@ p{
     float: right;
     margin-top: 12px;
 }
-=======
-h1{
-    font-size: 70px;
-    text-align: center;
-}
-ul {
-    width: 90%;
-    padding: 13px;
-    margin: -50px auto 10px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
-    text-align: center;
-}
-li {
-    display: inline;
-    font-size:30px;
-    margin: 0px 50px;
-    text-decoration:none;
-}
-a{
-  color:#007acc;
-  text-decoration:none; 
-}
-/* --------------------------------- */
-#p1{
-    width: 30%;
-    height: 30%;
-}
-#1{
-    border: solid 3px black;
-}
-#p2{
-    width: 30%;
-    height: 30%;
-}  
->>>>>>> 90da556367afd050e4567b036db29291ef087f9d
