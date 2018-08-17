@@ -1,13 +1,14 @@
 h1{
     font-size: 70px;
     text-align: center;
+    color: white
 }
 ul {
     width: 90%;
     padding: 13px;
     margin: -50px auto 10px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
     text-align: center;
 }
 li {
@@ -17,7 +18,7 @@ li {
     text-decoration:none;
 }
 a{
-  color:#007acc;
+  color:#C2E5FD;
   text-decoration:none; 
 }
 
@@ -50,7 +51,7 @@ a{
 
 body, html {
     width: 100%;
-    background-color: #FBF7D8;
+    background-image: url("univ1.jpg");
 }
 /* ------------------------------------- */
 #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12{
