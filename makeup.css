@@ -1,22 +1,23 @@
+
 h1{
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
     margin-top: 0;
-}
-ul {
-	width: 90%;
-	padding: 13px;
-	margin: -50px auto 10px auto;
-	border-top: 2px solid #000;
-	border-bottom: 1px solid #000;
-	text-align: center;
-}
 
+}
+ul{
+    width: 90%;
+    padding: 9px;
+    margin: -50px auto 10px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
 li {
-	display: inline;
-	font-size:30px;
-	margin: 0px 55px;
-	text-decoration:none;
+    display: inline;
+    font-size:30px;
+    margin: 0px 45px;
+    text-decoration:none;
 }
 
 a{
@@ -24,44 +25,31 @@ a{
   text-decoration:none; 
 }
 
+
+
 img{
         width: 400px;
         height: 400px;
 }
-#highlight{
-        border: solid 3px cyan;
-        background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
+#highlight, #pigment, #WWfound{
+        border: solid 3px rgb(248, 198, 123);
         margin: 8px;
         text-align: center;
         width: 50%;
 }
-#pigment{
-    border: solid 3px cyan;
-    background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
-    margin: 8px;
-    text-align: center;
-    width: 50%;
-}
-#WWfound{
-    border: solid 3px cyan;
-    background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
-    margin: 8px;
-    text-align: center;
-    width: 50%;
-}
-#WW{
+#WW, #Rev, #CP, #Glossier, #NYX, #covergirl, #Maybelline, #clinque{
     display: flex;
     align-content: space-around;
     text-align: center;
 }
-#firstbrand{
+/* #firstbrand{
     font-size: 80px;
     margin:0px;
     text-align: center;
-}
+} */
 #back2Top {
-    width: 40px;
-    line-height: 40px;
+    width: 60px;
+    line-height: 60px;
     overflow: hidden;
     z-index: 999;
     display: none;
@@ -74,8 +62,8 @@ img{
     position: fixed;
     bottom: 50px;
     right: 0;
-    background-color: #DDD;
-    color: #555;
+    background-color: rgb(174, 179, 176);
+    color: rgb(180, 255, 180);
     text-align: center;
     font-size: 30px;
     text-decoration: none;
@@ -84,19 +72,199 @@ img{
     background-color: #DDF;
     color: #000;
 }
-#secondbrand{
-    font-size: 80px;
-    margin:0px;
+#firstbrand{
+    background-image: url("wetnwildback2.png");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 180, 136);
+    margin: 8px;
     text-align: center;
+    width: 98.5%;
 }
-#Rfound{
-    border: solid 3px cyan;
-    background:linear-gradient(to bottom right, rgb(207, 96, 142) 0%, rgb(58, 5, 27) 100%);
+#secondbrand{
+    background-image: url("revlonback.png");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 0, 0);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#thirdbrand{
+    background-image: url("colourpop2.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 136, 201);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#fourthbrand{
+    background-image: url("glossierback.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 136, 201);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+} 
+#fifthbrand {
+    background-image: url("NYXback2.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(129, 129, 129);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#sixthbrand{
+    background-image: url("covergirlback.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(136, 188, 255);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#seventhbrand{
+    background-image: url("Maybellineback.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(201, 136, 255);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#eigthbrand{
+    background-image: url("cliniqueback.svg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(136, 255, 172);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+
+#Rfoundation{
+    width: 200px;
+    height: 400px;
+}
+#RevLiptint, #Rfound{
+    border: solid 3px rgb(255, 136, 136);
     margin: 8px;
     text-align: center;
     width: 50%;
 }
-#Rfoundation{
-    width: 200px;
+#bigmas{
+    width: 300px;
     height: 400px;
+}
+#remover{
+    width:300px; 
+    height: 400px;
+}
+#eyegel{
+    width:350px; 
+    height: 400px;
+}
+#maylogo, #cplogo, #glogo, #NYXlogo, #cglogo, #clogo{
+    width: 700px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#WWlogo{
+    width: 700px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#revlogo{
+    width: 700px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#fourthbrand {
+    background-image: url("glossierback.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 136, 201);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#revliner{
+    border: solid 3px rgb(255, 136, 136);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#CPeyeshaw, #cpsetpow ,#CPLIP{
+    border: solid 3px rgb(136, 231, 255);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#boyb, #highlightstick, #gblush{
+    border: solid 3px rgb(255, 137, 196);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#liquideyeshaw, #NYXeyeliner,#slip{
+    border: solid 3px rgb(151, 151, 151);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#litconc, #bigcurl, #lipcream{
+    border: solid 3px rgb(136, 251, 255);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#eyecheek, #makeupremover, #geleye{
+    border: solid 3px rgb(221, 136, 255);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#acne, #cheekpop, #moisture{
+    border: solid 3px rgb(136, 255, 172);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+body{
+    background-color: azure;
+}
+
+.mainHeader {
+    font-family: ;
+}
+#poop{
+    text-align: center;
 }

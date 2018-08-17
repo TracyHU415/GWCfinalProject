@@ -1,6 +1,7 @@
 h1{
     font-size: 70px;
     text-align: center;
+    margin-top: 0;
 }
 ul{
     width: 90%;
@@ -13,25 +14,9 @@ ul{
 li {
     display: inline;
     font-size:30px;
-    margin: 0px 55px;
+    margin: 0px 40px;
     text-decoration:none;
 }
-
-	width: 90%;
-	padding: 19px;
-	margin: -50px auto 10px auto;
-	border-top: 2px solid #000;
-	border-bottom: 1px solid #000;
-	text-align: center;
-}
-
-li {
-	display: inline;
-	font-size:30px;
-	margin: 0px 55px;
-	text-decoration:none;
-}
-
 
 a{
   color:#007acc;
@@ -41,9 +26,6 @@ a{
 body {
     background-color: #B9D0F3
 }
-/* ----------------------------------- */
-
-/* ------------------------------------------- */
 
 
 h2{
@@ -74,4 +56,3 @@ h2{
     background-color: #DDF;
     color: #000;
 }
-
