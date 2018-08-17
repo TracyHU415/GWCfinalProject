@@ -14,18 +14,22 @@ ul{
 li {
     display: inline;
     font-size:30px;
-    margin: 0px 55px;
+    margin: 0px 40px;
     text-decoration:none;
 }
+
 a{
   color:#007acc;
   text-decoration:none; 
 }
+
 body {
     background-color: #B9D0F3
 }
+
+
 h2{
-    text-align: center;
+	text-align: center;
 }
 #back2Top {
     width: 40px;
