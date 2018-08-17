@@ -1,48 +1,270 @@
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: rgb(99, 100, 192); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 0;
+
+}
+ul{
+    width: 90%;
+    padding: 9px;
+    margin: -50px auto 10px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+li {
+    display: inline;
+    font-size:30px;
+    margin: 0px 45px;
+    text-decoration:none;
 }
 
-/* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
+a{
+  color:#007acc;
+  text-decoration:none; 
+}
+
+
+
+img{
+        width: 400px;
+        height: 400px;
+}
+#highlight, #pigment, #WWfound{
+        border: solid 3px rgb(248, 198, 123);
+        margin: 8px;
+        text-align: center;
+        width: 50%;
+}
+#WW, #Rev, #CP, #Glossier, #NYX, #covergirl, #Maybelline, #clinque{
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+}
+/* #firstbrand{
+    font-size: 80px;
+    margin:0px;
+    text-align: center;
+} */
+#back2Top {
+    width: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: rgb(174, 179, 176);
+    color: rgb(180, 255, 180);
+    text-align: center;
+    font-size: 30px;
     text-decoration: none;
-    font-size: 25px;
-    color: #b8b8b8;
-    display: block;
-    transition: 0.3s;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+#firstbrand{
+    background-image: url("wetnwildback2.png");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 180, 136);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#secondbrand{
+    background-image: url("revlonback.png");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 0, 0);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#thirdbrand{
+    background-image: url("colourpop2.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 136, 201);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#fourthbrand{
+    background-image: url("glossierback.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 136, 201);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+} 
+#fifthbrand {
+    background-image: url("NYXback2.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(129, 129, 129);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#sixthbrand{
+    background-image: url("covergirlback.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(136, 188, 255);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#seventhbrand{
+    background-image: url("Maybellineback.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(201, 136, 255);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#eigthbrand{
+    background-image: url("cliniqueback.svg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(136, 255, 172);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #e2b3f8;
+#Rfoundation{
+    width: 200px;
+    height: 400px;
 }
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
+#RevLiptint, #Rfound{
+    border: solid 3px rgb(255, 136, 136);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#bigmas{
+    width: 300px;
+    height: 400px;
+}
+#remover{
+    width:300px; 
+    height: 400px;
+}
+#eyegel{
+    width:350px; 
+    height: 400px;
+}
+#maylogo, #cplogo, #glogo, #NYXlogo, #cglogo, #clogo{
+    width: 700px;
+    height: 200px;
     margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#WWlogo{
+    width: 700px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#revlogo{
+    width: 700px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#fourthbrand {
+    background-image: url("glossierback.jpg");
+    height:100%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 3px rgb(255, 136, 201);
+    margin: 8px;
+    text-align: center;
+    width: 98.5%;
+}
+#revliner{
+    border: solid 3px rgb(255, 136, 136);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#CPeyeshaw, #cpsetpow ,#CPLIP{
+    border: solid 3px rgb(136, 231, 255);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#boyb, #highlightstick, #gblush{
+    border: solid 3px rgb(255, 137, 196);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#liquideyeshaw, #NYXeyeliner,#slip{
+    border: solid 3px rgb(151, 151, 151);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#litconc, #bigcurl, #lipcream{
+    border: solid 3px rgb(136, 251, 255);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#eyecheek, #makeupremover, #geleye{
+    border: solid 3px rgb(221, 136, 255);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+#acne, #cheekpop, #moisture{
+    border: solid 3px rgb(136, 255, 172);
+    margin: 8px;
+    text-align: center;
+    width: 50%;
+}
+body{
+    background-color: azure;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
+.mainHeader {
+    font-family: ;
 }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+#poop{
+    text-align: center;
 }
