@@ -74,20 +74,28 @@
 }
 
 body {
-    background: linear-gradient(beige, skyblue, white, pink);
+
+    /* background: linear-gradient(rgb(0, 132, 255), skyblue, white, pink); */
+    background-color: navy
+
+
 }
 
 h1{
     font-size: 70px;
     text-align: center;
+    color:white;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 ul {
     width: 90%;
     padding: 13px;
     margin: -50px auto 10px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 li {
@@ -98,19 +106,25 @@ li {
 }
 
 a{
+
+  /* color:#00ff6a; */
+
   color:#059bff;
+
   text-decoration:none; 
+  color: white;
 }
 
 h2 {
     text-align: center;
     font-size: 80px;
-    color: purple;
+    color: white;
     text-decoration: underline;
+    margin-top:0;
 }
 
 #qwert{
-    color: black;
+    color: white;
 }
 
 #tyu {
@@ -121,7 +135,8 @@ h3 {
     margin: 5px;
     text-align: center;
     font-size: 36;
-    color: rgb(201, 151, 15);
+    /* color: rgb(201, 151, 15); */
+    color: white;
 }
 
 
@@ -144,6 +159,7 @@ p{
     flex: 1;
     border: 2px outset beige;
     border-radius: 50px;
+    color: white;
 
 
 }

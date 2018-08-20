@@ -3,13 +3,14 @@ h1{
     font-size: 70px;
     text-align: center;
     margin-top: 0;
+    color:navajowhite;
 }
 ul{
     width: 90%;
     padding: 13px;
     margin: -50px auto 10px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
     text-align: center;
 }
 li {
@@ -20,79 +21,22 @@ li {
 }
 
 a{
-  color:#007acc;
+  color:whitesmoke;
   text-decoration:none; 
 }
 
 body {
-    background-image: url("blue.jpg");
+    /* background-image: url("blue.jpg");
     height:100%;
     background-repeat: repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: navy;
 }
 
 
 h2{
-	text-align: center;
-}
-#back2Top {
-    width: 40px;
-    line-height: 40px;
-    overflow: hidden;
-    z-index: 999;
-    display: none;
-    cursor: pointer;
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    position: fixed;
-    bottom: 50px;
-    right: 0;
-    background-color: #DDD;
-    color: #555;
     text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-}
-#back2Top:hover {
-    background-color: #DDF;
-    color: #000;
-}
-
-h1{
-    font-size: 70px;
-    text-align: center;
-    margin-top: 0;
-}
-ul{
-    width: 90%;
-    padding: 13px;
-    margin: -50px auto 10px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
-    text-align: center;
-}
-li {
-    display: inline;
-    font-size:30px;
-    margin: 0px 40px;
-    text-decoration:none;
-}
-
-a{
-  color:#007acc;
-  text-decoration:none; 
-}
-
-body {
-    background-color: #B9D0F3
-}
-
-
-h2{
-	text-align: center;
+    color: white;
 }
 #back2Top {
     width: 40px;
