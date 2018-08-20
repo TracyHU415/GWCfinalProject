@@ -74,8 +74,11 @@
 }
 
 body {
+
     /* background: linear-gradient(rgb(0, 132, 255), skyblue, white, pink); */
     background-color: navy
+
+
 }
 
 h1{
@@ -103,7 +106,11 @@ li {
 }
 
 a{
+
   /* color:#00ff6a; */
+
+  color:#059bff;
+
   text-decoration:none; 
   color: white;
 }
