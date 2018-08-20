@@ -1,5 +1,10 @@
 body {
-    background: linear-gradient(rgb(245, 245, 134), rgb(255, 120, 120), beige)
+
+    /* background: linear-gradient(rgb(245, 245, 134), rgb(255, 120, 120), beige) */
+    background-color: navy;
+
+    background: linear-gradient(rgb(228, 226, 226), rgb(255, 120, 120), beige)
+
 }
 
 #back2Top {
@@ -31,14 +36,15 @@ body {
 h1{
     font-size: 70px;
     text-align: center;
+    color: navajowhite;
 }
 
 ul {
     width: 90%;
     padding: 13px;
     margin: -50px auto 10px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
     text-align: center;
 }
 
@@ -50,7 +56,7 @@ li {
 }
 
 a{
-  color:#003cff;
+  color:rgb(253, 0, 0);
   text-decoration:none; 
 }
 
@@ -100,12 +106,14 @@ h2{
     text-align: center;
     font-size: 48px;
     text-decoration: underline;
+    color: white;
 }
 
 h3 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 40px;
+    color: navajowhite;
 }
 
 p {
@@ -113,5 +121,6 @@ p {
     margin-left: 10px;
     text-align: left;
     font-size: 28px;
+    color: white;
 }
 
