@@ -63,4 +63,23 @@ h2{
     background-color: #DDF;
     color: #000;
 }
-
+#allboutme{
+    display: flex;
+    align-content: space-around;
+}
+#Eunice, #fiona, #Tracy, #Helen{
+    border: solid 3px navajowhite;
+    margin: 8px;
+    text-align: center;
+    width: 25%;
+    color: rgb(186, 233, 252);
+}
+#blop{
+    font-size: 40px;
+    margin:0;
+    color: paleturquoise
+}
+#fio, #tra, #eun, #hel{
+    width:200px;
+    height:200px;
+}

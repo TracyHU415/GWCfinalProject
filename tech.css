@@ -1,18 +1,12 @@
 h1{
     font-size: 70px;
     text-align: center;
-
-    color: navajowhite;
-
     color: #F1F68C
-
 }
 ul {
     width: 90%;
     padding: 13px;
     margin: -50px auto 10px auto;
-    border-top: 2px solid whitesmoke;
-    border-bottom: 1px solid whitesmoke;
     border-top: 2px solid white;
     border-bottom: 1px solid white;
     text-align: center;
@@ -24,15 +18,13 @@ li {
     text-decoration:none;
 }
 a{
-
-  color:whitesmoke;
   color:white;
   text-decoration:none; 
 }
 
 #back2Top {
-    width: 40px;
-    line-height: 40px;
+    width: 60px;
+    line-height: 60px;
     overflow: hidden;
     z-index: 999;
     display: none;
@@ -45,8 +37,8 @@ a{
     position: fixed;
     bottom: 50px;
     right: 0;
-    background-color: #DDD;
-    color: #555;
+    background-color: rgb(174, 179, 176);
+    color: rgb(180, 255, 180);
     text-align: center;
     font-size: 30px;
     text-decoration: none;
@@ -57,9 +49,7 @@ a{
 }
 /* --------------------------------- */
 
-
-    /* width: 100%;
-    background-image: url("sky1.jpg"); */
+body, html {
     width: 100%;
     background-color: navy;
 }
@@ -73,7 +63,6 @@ a{
 }
 
 #minicontainerAL, #minicontainerBL, #minicontainerCL, #minicontainerDL, #minicontainerEL, #minicontainerFL, #minicontainerGL, #minicontainerHL {
-    border: 6px solid whitesmoke;
     border: 6px solid #F5F4D1;
     border-radius: 30px;
     flex: 1;
@@ -83,7 +72,6 @@ a{
     margin-right: 20px;
 }
 #minicontainerAR, #minicontainerBR, #minicontainerCR, #minicontainerDR, #minicontainerER, #minicontainerFR, #minicontainerGR, #minicontainerHR {
-    border: 6px solid whitesmoke;
     border: 6px solid #F5F4D1;
     border-radius: 30px;
     flex: 1;
@@ -94,7 +82,6 @@ a{
 }
 #containerA, #containerB,#containerC, #containerD, #containerE, #containerF, #containerG, #containerH {
     display: flex;
-    color: navajowhite
 }
 iframe{
     float: left;
@@ -110,11 +97,10 @@ h4{
     text-align: justify;
     margin: 12px;
     margin-bottom: 8px;
-    color: whitesmoke;
     color: white
 }
  
 #webLink{
     float: right;
     margin-top: 12px;
-
+}
