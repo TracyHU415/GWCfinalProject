@@ -45,7 +45,7 @@ li {
     text-decoration:none;
 }
 a{
-  color:#007acc;
+  color:#c2e0f3;
   text-decoration:none; 
 }
 
@@ -61,7 +61,7 @@ a{
 
 .book{
     box-sizing: border-box;
-    color: #3a3f8a;
+    color: white;
     cursor: pointer;
     font-family: Lora,Georgia,Times,serif;
     font-size: 20px;
@@ -75,7 +75,7 @@ a{
 
 .author{
     box-sizing: border-box;
-    color: #2a363b;
+    color: navajowhite;
     display:block;
     font-family: Lora, Georgia, Times, serif;
     font-size:15px;
@@ -86,7 +86,8 @@ a{
 }
 
 body{
-    background: #ffdab5;
+    background: navy;
+    color: navajowhite;
 }
 
 h2{
@@ -94,3 +95,41 @@ h2{
     font-size: 40px;
 }
 
+.button {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    /* font-size: 28px; */
+    padding: 0;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

@@ -22,7 +22,7 @@ li {
 }
 
 a{
-  color:#eddcff;
+  color:#f1e7fc;
   text-decoration:none; 
 }
 
@@ -70,7 +70,7 @@ img{
     text-decoration: none;
 }
 #back2Top:hover {
-    background-color: #DDF;
+    background-color: rgb(228, 228, 250);
     color: #000;
 }
 #firstbrand{
@@ -274,7 +274,7 @@ body{
     text-align: center;
     color: white;
 }
-<style>
+
 .button {
   border-radius: 4px;
   background-color: #f4511e;
