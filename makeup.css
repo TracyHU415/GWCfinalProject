@@ -22,7 +22,7 @@ li {
 }
 
 a{
-  color:#f1e7fc;
+  color:#eddcff;
   text-decoration:none; 
 }
 
@@ -274,12 +274,12 @@ body{
     text-align: center;
     color: white;
 }
-
+<style>
 .button {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: transparent;
   border: none;
-  color: #FFFFFF;
+  color: transparent;
   text-align: center;
   /* font-size: 28px; */
   padding: 0;

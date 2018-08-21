@@ -52,11 +52,12 @@ a{
 
 .title{
     display:inline-block;
-    font-size:29px;
+    font-size:80px;
     transform:scale(1.15,1);
     border: double;
     font-family: 'Arvo', serif;
-    border-color: rgb(121, 113, 113)
+    border-color: rgb(121, 113, 113);
+    margin:20px;
 }
 
 .book{
@@ -64,7 +65,7 @@ a{
     color: white;
     cursor: pointer;
     font-family: Lora,Georgia,Times,serif;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 700;
     letter-spacing: o.5px;
