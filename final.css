@@ -122,3 +122,28 @@ h2{
     opacity: 1;
     right: 0;
   }
+  #back2Top {
+    width: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: rgb(174, 179, 176);
+    color: rgb(180, 255, 180);
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: rgb(228, 228, 250);
+    color: #000;
+}
